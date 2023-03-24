@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioth&egrave;qa</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link rel="stylesheet" href="static\styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
+</head>
+<body>
+    <header class="page__header">
+        <nav class="navbar__menu">
+          <h3 id="greet"></h3>
+          <ul id="navbar__list">
+            <li><a href="/" class="menu__link">Home</a></li>
+            <li><a href="/add_book" class="menu__link">Add</a></li>
+            <li><a href="/show_books" class="menu__link">View books</a></li>
+            <li><a href="/login" class="menu__link" id="logOut">Log out</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="landing__container">
+        <h2>Search Biblioth&egrave;qa Books:</h2>
+    </div>
+    <div>
+        <form class="nosubmit books__cards" action="/search" method="get">
+            <input class="nosubmit" type="search" placeholder="Search a book name..." name="title">
+            <input class="nosubmit" type="search" placeholder="Search an author..." name="author">
+            <input type="submit" value="Search" class="form_submit">
+        </form>
+    </div>
+    <footer class="page__footer">
+        <p>&copy Biblioth&egrave;qa</p>
+    </footer>
+    <script src="static/app.js"></script>
+</body>
+</html>

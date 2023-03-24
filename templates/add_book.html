@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioth&egrave;qa</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link rel="stylesheet" href="static\styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
+</head>
+<body>
+    <header class="page__header">
+        <nav class="navbar__menu">
+          <h3 id="greet"></h3>
+          <ul id="navbar__list">
+            <li><a href="/" class="menu__link">Home</a></li>
+            <li><a href="/filter" class="menu__link">Search</a></li>
+            <li><a href="/show_books" class="menu__link">View books</a></li>
+            <li><a href="/login" class="menu__link" id="logOut">Log out</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="landing__container">
+        <h2>Add a book details</h2>
+        <br>
+        <div>
+            <form action="/add_book" method="POST" class="grid-container">
+                <textarea placeholder="enter a book title..." name="book_title"></textarea>
+                <textarea placeholder="enter the author name..." name="book_author"></textarea>
+                <input type="submit" value="Enter" class="form_submit">
+            </form>
+        </div>
+    </main>
+    <footer class="page__footer">
+        <p>&copy Biblioth&egrave;qa</p>
+    </footer>
+    <script src="static/app.js"></script>
+</body>
+</html>

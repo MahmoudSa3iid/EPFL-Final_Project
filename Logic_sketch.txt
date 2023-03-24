@@ -1,0 +1,22 @@
+Main features that are included in the library store website regarding to the CRUD concept:
+
+Create: Allow users to add new books to the library store by filling out a form that includes information such as the book's title, author, publication date, genre, and synopsis.
+
+Read: Enable users to browse the library store's collection of books by displaying a list of all books with their corresponding details, titles, authors, and ratings. Also, provide a search function to allow users to find specific books based on criteria such as author, title, genre, and keywords.
+
+Update: Allow users to edit book details by clicking on an "Edit" button and modifying the book's information in a form.
+
+Delete: Provide an option for users to remove books from the library store's collection by clicking on a "Delete" button that prompts for confirmation.
+
+User authentication: Implement a user authentication system to ensure that only authorized users can access the CRUD functionality.
+
+Pagination: Implement pagination to improve the performance of displaying large numbers of books.
+
+Data validation: Ensure that user inputs are validated before being saved to the database to prevent errors and security vulnerabilities.
+
+Error handling: Provide user-friendly error messages for common errors, such as invalid input, database connection issues, and server errors.
+
+
+Responsive design: Implement a responsive design to ensure that the website is accessible and functional on all devices, including desktops, tablets, and smartphones.
+
+Database integration: Use a csv as database file to store and retrieve book data.
