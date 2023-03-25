@@ -17,7 +17,7 @@ function logIn() {
     let userName = textBox.value;
     if (userName.trim() != "") {
         localStorage.setItem("username", userName.trim());
-        window.location.href = "/";
+        window.location.href = "/home";
     } else {
         errorMSG.innerText = "Empty Field!"
     }
