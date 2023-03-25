@@ -53,15 +53,15 @@ def get_books():
 
 # Setup of index route
 @app.route("/")
-def home():
+def login():
     html_file = get_html("index")
     return html_file 
 
 
 # Setup of Login route
-@app.route('/login')
-def login():
-    html_file = get_html("login")
+@app.route('/home')
+def homepage():
+    html_file = get_html("home")
     return html_file 
 
 
